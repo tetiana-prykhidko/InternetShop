@@ -3,17 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>InternetShop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap-grid.css">
-	<!-- Styles -->
-	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Muli:wght@300;400;600;700&display=swap" rel="stylesheet">
 	<!-- Font Awesome -->
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/buttons.css">
 </head>
 <body>
+
+	<!-- Header -->
 	<header class="header">
 		<div class="container">
 			<div class="row">
@@ -34,9 +38,9 @@
 					</nav>
 				</div>
 				<div class="col-md-1">
-					<div class="shopping-bag">
+					<div class="shopping-cart">
 						<img src="img/shopping-bag.svg">
-						<div class="bag__number">3</div>
+						<div class="cart__number">3</div>
 					</div>
 					
 				</div>
@@ -44,14 +48,200 @@
 		</div> <!-- /container -->
 	</header>
 
+	<!-- Intro -->
 	<div class="container">
 		<div class="intro">
 			<div class="intro__content">
 				<div class="intro__title">Kenakata Summer Collection</div>
 				<div class="intro__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium aut sit,<br> voluptatem perferendis, nulla iusto quia ad.</div>
-				<a href="#" class="intro__btn">Shop Now</a>
+				<a href="#" class="btn__solid">Shop Now</a>
 			</div>
+		</div> <!-- /intro -->
+	</div>
+
+	<!-- Products -->
+	<section class="new-products">
+		<div class="container">
+			<h2 class="title">New Products</h2>
+			<h4 class="subtitle">Adipisci iusto inventore sed labore</h4>
+			<div class="row">
+				<div class="col-xl-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="card">
+						<div class="card__image" style="background-image: url(img/products/white-dress.jpeg);"></div>
+						<div class="card__title">Super oversized dress</div>
+						<div class="card__price">
+							<span>100.00$</span>
+							95.00$
+						</div>
+					</div> <!-- /card -->
+				</div> <!-- /col-md-3 -->
+				<div class="col-xl-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="card">
+						<div class="card__image" style="background-image: url(img/products/green-dress.jpeg);"></div>
+						<div class="card__title">Mini smock dress in khaki</div>
+						<div class="card__price">
+							<span>75.00$</span>
+							60.00$
+						</div>
+					</div> <!-- /card -->
+				</div> <!-- /col-md-3 -->
+				<div class="col-xl-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="card">
+						<div class="card__image" style="background-image: url(img/products/milk-dress.jpeg);"></div>
+						<div class="card__title">Organic poplin cotton dress</div>
+						<div class="card__price">
+							<span>110.00$</span>
+							90.00$
+						</div>
+					</div> <!-- /card -->
+				</div> <!-- /col-md-3 -->
+				<div class="col-xl-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="card">
+						<div class="card__image" style="background-image: url(img/products/whiterustspot.jpeg);"></div>
+						<div class="card__title">Mini sundress in polka dot</div>
+						<div class="card__price">
+							<span>60.00$</span>
+							50.00$
+						</div>
+					</div> <!-- /card -->
+				</div> <!-- /col-md-3 -->
+				<div class="col-xl-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="card">
+						<div class="card__image" style="background-image: url(img/products/14488233-1-monofloral.jpeg);"></div>
+						<div class="card__title">Shirt dress in mono gingham</div>
+						<div class="card__price">
+							<span>55.00$</span>
+							50.00$
+						</div>
+					</div> <!-- /card -->
+				</div> <!-- /col-md-3 -->
+				<div class="col-xl-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="card">
+						<div class="card__image" style="background-image: url(img/products/midyellow.jpeg);"></div>
+						<div class="card__title">Mini poplin dress in yellow</div>
+						<div class="card__price">
+							<span>90.00$</span>
+							70.00$
+						</div>
+					</div> <!-- /card -->
+				</div> <!-- /col-md-3 -->
+				<div class="col-xl-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="card">
+						<div class="card__image" style="background-image: url(img/products/pastelturquoisetie.jpeg);"></div>
+						<div class="card__title">Metallic sunbeach dress</div>
+						<div class="card__price">
+							<span>140.00$</span>
+							100.00$
+						</div>
+					</div> <!-- /card -->
+				</div> <!-- /col-md-3 -->
+				<div class="col-xl-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="card">
+						<div class="card__image" style="background-image: url(img/products/yellow.jpeg);"></div>
+						<div class="card__title">Mini dress in multi</div>
+						<div class="card__price">
+							<span>115.00$</span>
+							95.00$
+						</div>
+					</div> <!-- /card -->
+				</div> <!-- /col-md-3 -->
+			</div> <!-- /row -->
+		</div> <!-- /container -->
+	</section>
+
+	<button class="btn__outline">
+		Brows All Items
+		<span></span>
+	</button>
+
+	<!-- Advertising block -->
+	<div class="adv__wrapper adv__wrapper-bg-1">	
+		<div class="container">
+			<div class="adv__title">Get something you love</div>
+			<a href="#" class="btn__solid">Shop now</a>
 		</div>
 	</div>
+
+	<section class="new-products">
+		<div class="container">
+			<h2 class="title">Featured Products</h2>
+			<h4 class="subtitle">Editors` picks</h4>
+			<div class="row">
+				<div class="col-xl-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="card">
+						<div class="card__image" style="background-image: url(img/suits/white-group-1.jpeg);">
+							<div class="card__hover">
+								<a href="#" class="btn__card">Add To Cart</a>
+								<a href="#" class="btn__card">Quik View</a>
+							</div>
+						</div>
+						<div class="card__title">Tall pop suit in white</div>
+						<div class="card__price">
+							<span>175.00$</span>
+							160.00$
+						</div>
+					</div> <!-- /card -->
+				</div> <!-- /col-md-3 -->
+				<div class="col-xl-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="card">
+						<div class="card__image" style="background-image: url(img/suits/pink-group-1.jpeg);">
+							<div class="card__hover">
+								<a href="#" class="btn__card">Add To Cart</a>
+								<a href="#" class="btn__card">Quik View</a>
+							</div>
+						</div>
+						<div class="card__title">Shrunken dad suit</div>
+						<div class="card__price">
+							<span>160.00$</span>
+							150.00$
+						</div>
+					</div> <!-- /card -->
+				</div> <!-- /col-md-3 -->
+				<div class="col-xl-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="card">
+						<div class="card__image" style="background-image: url(img/suits/black-1-monofloral.jpeg);">
+							<div class="card__hover">
+								<a href="#" class="btn__card">Add To Cart</a>
+								<a href="#" class="btn__card">Quik View</a>
+							</div>
+						</div>
+						<div class="card__title">Tall mix & match suit in black</div>
+						<div class="card__price">
+							<span>320.00$</span>
+							190.00$
+						</div>
+					</div> <!-- /card -->
+				</div> <!-- /col-md-3 -->
+				<div class="col-xl-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="card">
+						<div class="card__image" style="background-image: url(img/suits/paleblue.jpeg);">
+							<div class="card__hover">
+								<a href="#" class="btn__card">Add To Cart</a>
+								<a href="#" class="btn__card">Quik View</a>
+							</div>
+						</div>
+						<div class="card__title">Pop waisted suit in paleblue</div>
+						<div class="card__price">
+							<span>200.00$</span>
+							155.00$
+						</div>
+					</div> <!-- /card -->
+				</div> <!-- /col-md-3 -->
+			</div> <!-- /row -->
+		</div> <!-- /container -->
+	</section>
+
+	<!-- Advertising block -->
+	<div class="adv__wrapper adv__wrapper-bg-2">
+		<div class="container">
+			<img src="img/example-logo.png" alt="brand">
+			<img src="img/example-logo.png" alt="brand">
+			<img src="img/example-logo.png" alt="brand">
+			<img src="img/example-logo.png" alt="brand">
+			<img src="img/example-logo.png" alt="brand">
+			<img src="img/example-logo.png" alt="brand">
+		</div>
+	</div>
+
 </body>
 </html>

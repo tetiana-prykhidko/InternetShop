@@ -1,0 +1,109 @@
+
+/* * * * * * * * * *
+Button solid
+* * * * * * * * * */
+.btn__solid {
+	background-color: #f72464;
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Lora', serif;
+	padding: 10px 50px;
+	border-radius: 3px;
+	display: inline-block;
+	box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, .25);
+	text-decoration: none;
+	transition: all .2s ease-in;
+}
+
+.btn__solid:hover {
+	text-decoration: none;
+	color: #fff;
+	background-color: #d03b50;
+	box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, .4);
+}
+
+
+/* * * * * * * * * *
+Button outline
+* * * * * * * * * */
+.btn__outline {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	border: none;
+	display: block;
+	position: relative;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 6px 35px;
+	background: transparent;
+	cursor: pointer;
+	user-select: none;
+	overflow: hidden;
+	color: #f72464;
+}
+
+.btn__outline span {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	z-index: -1;
+	border: 3px solid #f72464;
+	border-radius: 3px;
+}
+
+.btn__outline span:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 8%;
+	height: 500%;
+	background: #fff;
+	transform: translate(-50%, -50%) rotate(-60deg);
+	transition: all .4s ease-in;
+}
+
+.btn__outline:hover span:before,
+.btn__outline:focus span:before {
+	transform: translate(-50%, -50%) rotate(-90deg);
+	width: 100%;
+	height: 1000%;
+	background: #f72464;
+}
+
+.btn__outline:hover, .btn__outline:focus {
+	color: #fff;
+	box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, .25);
+}
+
+
+/* * * * * * * * * *
+Button card
+* * * * * * * * * */
+.btn__card {
+	background-color: #f72464;
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Lora', serif;
+	line-height: 1;
+/*	height: 40px;*/
+	width: 120px;
+	padding: 12px 0;
+	border-radius: 3px;
+	display: inline-block;
+	box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, .25);
+	text-decoration: none;
+	margin-bottom: 12px;
+	transition: all .3s ease-in;
+}
+
+.btn__card:hover {
+	text-decoration: none;
+	color: #fff;
+	background-color: #d03b50;
+	box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, .4);
+}
