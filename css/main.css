@@ -129,6 +129,13 @@ Title / Subtitle
 	margin-bottom: 70px;
 }
 
+.description {
+	font-size: 15px;
+	line-height: 1.6;
+	color: #919191;
+	text-align: center;
+}
+
 /* * * * * * * * * *
 Products
 * * * * * * * * * */
@@ -240,4 +247,73 @@ Advertising block
 	width: 150px;
 	height: 60px;
 	border-radius: 3px;
+}
+
+/* * * * * * * * * *
+Footer
+* * * * * * * * * */
+.footer {
+	background-color: #111;
+	padding: 20px 0 25px;
+	text-align: center;
+}
+
+.footer-nav__link {
+	display: inline-block;
+	color: #fff;
+	font-size: 14px;
+	line-height: 1.5;
+	text-decoration: none;
+	margin-right: 35px;
+	text-transform: uppercase;
+	transition: .4s;
+}
+
+.footer-nav__link:last-child {
+	margin-right: 0px;
+}
+
+.footer-nav__link:hover {
+	color: rgba(247, 36, 100, .8);
+	text-decoration: none;
+}
+
+.footer__social {
+	margin: 20px 0;
+}
+
+.footer__social a {
+	margin-right: 25px;
+}
+
+.footer__social a:last-child {
+	margin-right: 0;
+}
+a svg:hover #facebook,
+a svg:hover #instagram,
+a svg:hover #twitter,
+a svg:hover #pinterest {
+	transition: .4s;
+}
+
+a svg:hover #facebook,
+a svg:hover #instagram,
+a svg:hover #twitter,
+a svg:hover #pinterest
+ {
+	fill: rgba(247, 36, 100, .8);
+}
+
+.footer__copyright {
+	color: #898989;
+	font-size: 12px;
+}
+
+.footer__copyright a {
+	color: rgba(247, 36, 100, 1);
+	text-decoration: none;
+}
+
+.footer__copyright a:hover {
+	color: rgba(247, 36, 100, .8);
 }
