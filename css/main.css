@@ -13,6 +13,10 @@ section {
 	margin: 100px 0;
 }
 
+.mt-40 {
+	margin-top: 40px;
+}
+
 /* * * * * * * * * *
 Header
 * * * * * * * * * */
@@ -247,6 +251,60 @@ Advertising block
 	width: 150px;
 	height: 60px;
 	border-radius: 3px;
+}
+
+/* * * * * * * * * *
+Blog
+* * * * * * * * * */
+.blog__img img {
+	max-width: 180px;
+	margin-bottom: 30px;
+}
+
+.blog__content {
+	margin-left: 10px;
+}
+
+.blog__title {
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'Lora', serif;
+	color: rgb(34,34,34);
+	line-height: 1.6;
+	margin-bottom: 10px;
+}
+
+.blog__desc {
+	font-size: 15px;
+	color: #898989;
+	line-height: 1.6;
+	margin-bottom: 10px;
+}
+
+.description {
+	margin-bottom: 40px;
+}
+
+.subscribe {
+	display: flex;
+	justify-content: center;
+}
+
+.subscribe__input {
+	color: #111;
+	font-size: 15px;
+	line-height: 1;
+	border: 1px solid #f72464;
+	border-radius: 3px;
+	height: 40px;
+	width: 250px;
+	margin-right: 10px;
+	padding: 0 10px;
+	text-align: center;
+}
+
+.subscribe__input:focus {
+	border: 2px solid #f72464;
 }
 
 /* * * * * * * * * *
