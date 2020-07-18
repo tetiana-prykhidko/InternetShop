@@ -147,3 +147,25 @@ Button card
 	color: #d03b50;
 	text-decoration: none;
 }
+
+
+/* * * * * * * * * *
+Media requests
+* * * * * * * * * */
+@media screen and (max-width: 990px) {
+	.btn__solid {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.btn__solid {
+		font-size: 15px;
+		padding: 8px 40px;
+	}
+
+	.btn__outline {
+		margin-bottom: 70px;
+		font-size: 16px;
+	}
+}

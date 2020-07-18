@@ -21,13 +21,13 @@
 	<header class="header">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-2">
+				<div class="col-sm-2">
 					<a href="#">
 						<div class="header__logo">kenakata</div>
 					</a>
 				</div>
-				<div class="col-md-9">
-					<nav class="navigation">
+				<div class="col-sm-9">
+					<nav class="navigation" id="navigation">
 						<ul>
 							<li class="navigation__link"><a href="#">Collection</a></li>
 							<li class="navigation__link"><a href="#">Man</a></li>
@@ -37,13 +37,17 @@
 						</ul>
 					</nav>
 				</div>
-				<div class="col-md-1">
+				<div class="col-sm-1">
 					<div class="shopping-cart">
 						<img src="img/shopping-bag.svg">
 						<div class="cart__number">3</div>
 					</div>
-					
 				</div>
+			</div>
+			<div class="hamburger__menu" id="hamburger__icon" onclick="showHamburgerMenu()">
+				<span class="hamburger-line"></span>
+				<span class="hamburger-line"></span>
+				<span class="hamburger-line"></span>
 			</div>
 		</div> <!-- /container -->
 	</header>
@@ -202,6 +206,7 @@
 		</div>
 	</div>
 
+	<!-- Featured Products -->
 	<section class="new-products">
 		<div class="container">
 			<h2 class="title">Featured Products</h2>
@@ -267,6 +272,66 @@
 						</div>
 					</div> <!-- /card -->
 				</div> <!-- /col-md-3 -->
+				<div class="col-xl-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="card">
+						<div class="card__image" style="background-image: url(img/suits/black.jpeg);">
+							<div class="card__hover">
+								<a href="#" class="btn__card">Add To Cart</a>
+								<a href="#" class="btn__card">Quik View</a>
+							</div>
+						</div>
+						<div class="card__title">Whistles slim blazer in black</div>
+						<div class="card__price">
+							<span>240.00$</span>
+							190.00$
+						</div>
+					</div> <!-- /card -->
+				</div> <!-- /col-md-3 -->
+				<div class="col-xl-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="card">
+						<div class="card__image" style="background-image: url(img/suits/blush.jpeg);">
+							<div class="card__hover">
+								<a href="#" class="btn__card">Add To Cart</a>
+								<a href="#" class="btn__card">Quik View</a>
+							</div>
+						</div>
+						<div class="card__title">Shrunken dad suit blazer</div>
+						<div class="card__price">
+							<span>150.00$</span>
+							130.00$
+						</div>
+					</div> <!-- /card -->
+				</div> <!-- /col-md-3 -->
+				<div class="col-xl-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="card">
+						<div class="card__image" style="background-image: url(img/suits/green.jpeg);">
+							<div class="card__hover">
+								<a href="#" class="btn__card">Add To Cart</a>
+								<a href="#" class="btn__card">Quik View</a>
+							</div>
+						</div>
+						<div class="card__title">Topshop tailored suit in mint</div>
+						<div class="card__price">
+							<span>150.00$</span>
+							130.00$
+						</div>
+					</div> <!-- /card -->
+				</div> <!-- /col-md-3 -->
+				<div class="col-xl-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="card">
+						<div class="card__image" style="background-image: url(img/suits/total-black.jpeg);">
+							<div class="card__hover">
+								<a href="#" class="btn__card">Add To Cart</a>
+								<a href="#" class="btn__card">Quik View</a>
+							</div>
+						</div>
+						<div class="card__title">Tailored smart suit pants</div>
+						<div class="card__price">
+							<span>150.00$</span>
+							130.00$
+						</div>
+					</div> <!-- /card -->
+				</div> <!-- /col-md-3 -->
 			</div> <!-- /row -->
 		</div> <!-- /container -->
 	</section>
@@ -289,11 +354,10 @@
 			<h2 class="title">Blog Posts</h2>
 			<h4 class="subtitle">Editors` picks</h4>
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-12 col-lg-6">
 					<div class="row">
 						<div class="col-md-4">
-							<div class="blog__img">
-								<img src="img/blog/pug-801826_640.jpg">
+							<div class="blog__img" style="background-image: url(img/blog/pug-801826_640.jpg);">
 							</div>
 						</div>
 						<div class="col-md-8">
@@ -307,12 +371,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-12 col-lg-6">
 					<div class="row">
 						<div class="col-md-4">
-							<div class="blog__img">
-								<img src="img/blog/cloth-1835894_640.jpg">
-							</div>
+							<div class="blog__img" style="background-image: url(img/blog/cloth-1835894_640.jpg);"></div>
 						</div>
 						<div class="col-md-8">
 							<div class="blog__content">
@@ -325,12 +387,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-12 col-lg-6">
 					<div class="row">
 						<div class="col-md-4">
-							<div class="blog__img">
-								<img src="img/blog/wool-731515_640.jpg">
-							</div>
+							<div class="blog__img" style="background-image: url(img/blog/wool-731515_640.jpg);"></div>
 						</div>
 						<div class="col-md-8">
 							<div class="blog__content">
@@ -343,12 +403,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-12 col-lg-6">
 					<div class="row">
 						<div class="col-md-4">
-							<div class="blog__img">
-								<img src="img/blog/people-2563491_640.jpg">
-							</div>
+							<div class="blog__img" style="background-image: url(img/blog/people-2563491_640.jpg);"></div>
 						</div>
 						<div class="col-md-8">
 							<div class="blog__content">
@@ -361,25 +419,23 @@
 						</div>
 					</div>
 				</div>
-			</div>			
+			</div>	
+
+			<button class="btn__outline mt-40">
+				Read all posts
+				<span></span>
+			</button>
+
+			<h2 class="title">Join 100,000 members allready collaborating</h2>
+
+			<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dolorem distinctio ullam nesciunt aliquid provident accusantium placeat nostrum doloribus, culpa assumenda voluptatem, voluptatum nemo?</div>
+
+
+			<form class="subscribe">
+				<input type="text" class="subscribe__input" placeholder="Your email address">
+				<input type="submit" class="btn__card" value="Subscribe">
+			</form>		
 		</div>
-
-		<button class="btn__outline mt-40">
-			Read all posts
-			<span></span>
-		</button>
-
-		<h2 class="title">Join 100,000 members allready collaborating</h2>
-		<div class="row justify-content-center">
-			<div class="col-md-6">
-				<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dolorem distinctio ullam nesciunt aliquid provident accusantium placeat nostrum doloribus, culpa assumenda voluptatem, voluptatum nemo?</div>
-			</div>
-		</div>
-
-		<form class="subscribe">
-			<input type="text" class="subscribe__input" placeholder="Your email address">
-			<input type="submit" class="btn__card" value="Subscribe">
-		</form>
 	</section>
 
 	<!-- Footer -->
@@ -415,8 +471,8 @@
 			</div>
 			<div class="footer__copyright">2020&#186; Created by <a href="https://github.com/tetiana-prykhidko">Tetiana Prykhidko</a></div>
 		</div>
-
 	</footer>
 
+<script src="js/menu-toggle.js"></script>
 </body>
 </html>
